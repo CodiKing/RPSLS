@@ -33,7 +33,16 @@ class Game:
         user_input = input("Press 0 for multiplayer or 1 for Single player: ")
 
         if user_input == 0:
-            pass
+            player_one = Human()
+            player_two = Human()
+        elif user_input == 1:
+            player_one = Human()
+            player_two = Ai()
+        else:
+            print('Oops! Lets pick again!')
+            print("How would you like to play this game? With a friend or by yourself against AI?\n")
+            user_input = input("Press 0 for multiplayer or 1 for Single player: ")
+
 
     def human_turn(self):
         self.human_choice()
@@ -44,4 +53,6 @@ class Game:
         self.ai_choice
         pass
 
-    def comparing_gestures():
+    def comparing_gestures(self):
+        while counter < 2:
+            if 

@@ -1,4 +1,4 @@
-from multiprocessing import RLock
+
 
 
 class Person:
@@ -37,4 +37,9 @@ class Person:
         self.scissors > self.lizard
 
     def lizard_choice(self):
-        self.lizard > self.
+        self.lizard > self.spock
+        self.lizard > self.paper
+
+    def spock_choice(self):
+        self.spock > self.scissors
+        self.spock > self.rock
