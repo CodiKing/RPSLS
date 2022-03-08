@@ -3,7 +3,7 @@
 
 class Person:
     def __init__(self):
-        self.gesture_list = ['rock', 'scissors', 'paper', 'lizard', 'Spock']
+        self.gesture_list = ['Rock', 'Scissors', 'Paper', 'Lizard', 'Spock']
        
     # def create_gesture_list(self):
     #     rock = "Rock"

@@ -27,7 +27,9 @@ class Human(Person):
             self.player_input = 'Lizard'
         elif self.player_input == 4:
             self.player_input = 'Spock'
-    
+        else:
+            print('Try again.')
+            self.player_input =  int(input("Please select a number: "))
         
     def create_player(self):
         self.counter = 0
