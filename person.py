@@ -2,44 +2,43 @@
 
 
 class Person:
-    def __init__(self, name):
-        self.name = name
-        self.gesture_list = []
-        self.create_gesture_list()
+    def __init__(self):
+        self.gesture_list = ['rock', 'scissors', 'paper', 'lizard', 'Spock']
+       
+    # def create_gesture_list(self):
+    #     rock = "Rock"
+    #     self.gesture_list.append(rock)
 
-    def create_gesture_list(self):
-        rock = "Rock"
-        self.gesture_list.append(rock)
+    #     scissors = "Scissors"
+    #     self.gesture_list.append(scissors)
 
-        scissors = "Scissors"
-        self.gesture_list.append(scissors)
+    #     paper = "Paper"
+    #     self.gesture_list.append(paper)
 
-        paper = "Paper"
-        self.gesture_list.append(paper)
+    #     lizard = "Lizard"
+    #     self.gesture_list.append(lizard)
 
-        lizard = "Lizard"
-        self.gesture_list.append(lizard)
+    #     spock = "Spock"
+    #     self.gesture_list.append(spock)
 
-        spock = "Spock"
-        self.gesture_list.append(spock)
+    # def rock_choice(self):
+    #     self.rock > self.scissors
+    #     self.rock > self.lizard
+    #     print('Rock is clearly superior this round! ')
 
-    def rock_choice(self):
-        self.rock > self.scissors
-        self.rock > self.lizard
-        print('Rock is clearly superior this round! ')
+    # def paper_choice(self):
+    #     self.paper > self.rock
+    #     self.paper > self.spock
 
-    def paper_choice(self):
-        self.paper > self.rock
-        self.paper > self.spock
+    # def scissors_choice(self):
+    #     self.scissors > self.paper
+    #     self.scissors > self.lizard
 
-    def scissors_choice(self):
-        self.scissors > self.paper
-        self.scissors > self.lizard
+    # def lizard_choice(self):
+    #     self.lizard > self.spock
+    #     self.lizard > self.paper
 
-    def lizard_choice(self):
-        self.lizard > self.spock
-        self.lizard > self.paper
+    # def spock_choice(self):
+    #     self.spock > self.scissors
+    #     self.spock > self.rock
 
-    def spock_choice(self):
-        self.spock > self.scissors
-        self.spock > self.rock
